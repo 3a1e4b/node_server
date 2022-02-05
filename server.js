@@ -9,6 +9,6 @@ const server = http.createServer((req, res) => {
 });
 
 const PORT = 3000;
-server.listen(PORT, 'localhost', (error) => {
+server.listen(PORT, (error) => {
         error ? console.log(error) : console.log(`listen on ${PORT}`)                                  
 });
